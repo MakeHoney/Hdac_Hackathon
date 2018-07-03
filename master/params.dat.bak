@@ -38,7 +38,7 @@ allow-multisig-outputs = true           # Allow bare multisignature scripts, rar
 
 # Consensus requirements
 
-setup-first-blocks = 60                 # Length of initial setup phase in blocks, in which mining-diversity,
+setup-first-blocks = 5000                 # Length of initial setup phase in blocks, in which mining-diversity,
                                         # admin-consensus-* and mining-requires-peers are not applied. (1 - 31536000)
 mining-diversity = 0.0                  # Miners must wait <mining-diversity>*<active miners> between blocks. (0 - 1)
 admin-consensus-upgrade = 0.5           # <admin-consensus-upgrade>*<active admins> needed to upgrade the chain. (0 - 1)

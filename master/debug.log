@@ -1,5 +1,5 @@
-2018-07-03 08:02:50 [AppInit2] : MAX_BLOCK_SIZE=1000000, MAX_BLOCK_SIGOPS=20000, MAX_TX_SIGOPS=4000 
-2018-07-03 08:02:50 
+2018-07-03 08:51:48 [AppInit2] : MAX_BLOCK_SIZE=1000000, MAX_BLOCK_SIGOPS=20000, MAX_TX_SIGOPS=4000 
+2018-07-03 08:51:48 
 
 
 
@@ -19,100 +19,455 @@
 
 
 
-2018-07-03 08:02:50 Hdac version build 1.03.5 protocol 20000 (May 10 2018, 09:15:25)
-2018-07-03 08:02:50 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
-2018-07-03 08:02:50 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
-2018-07-03 08:02:50 Default data directory /home/brian/.hdac/master
-2018-07-03 08:02:50 Using data directory /home/brian/.hdac/master
-2018-07-03 08:02:50 Using config file /home/brian/.hdac/master/master.conf
-2018-07-03 08:02:50 Using at most 125 connections (1024 file descriptors available)
-2018-07-03 08:02:50 Using 4 threads for script verification
-2018-07-03 08:02:50 Using wallet wallet.dat
-2018-07-03 08:02:50 init message: Verifying wallet...
-2018-07-03 08:02:50 CDBEnv::Open : LogDir=/home/brian/.hdac/master/database ErrorFile=/home/brian/.hdac/master/db.log
-2018-07-03 08:02:50 init message: Initializing hdac...
-2018-07-03 08:02:50 nFileVersion = 100000
-2018-07-03 08:02:50 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
-2018-07-03 08:02:50 hdac: Default key is not found - creating new... 
-2018-07-03 08:02:50 keypool added key 1, size=1
-2018-07-03 08:02:50 keypool added key 2, size=2
-2018-07-03 08:02:50 hdac: Parameter set is new, THIS IS GENESIS NODE - looking for genesis block...
-2018-07-03 08:02:50 [AppInitAsParams] : minFee = 0, minRelayTxFee=0.00000000 HDAC/kB, minTxFee=0.00000000 HDAC/kB 
-2018-07-03 08:02:50 [AppInitAsParams] : payTxFee = 0.00000000 HDAC/kB, maxTxFee=10 
-2018-07-03 08:02:50 [AppInitAsParams] : MAX_BLOCK_SIZE=8388608, MAX_BLOCK_SIGOPS=167772, MAX_TX_SIGOPS=33554 
-2018-07-03 08:02:50 hdac: Genesis block found
-2018-07-03 08:02:50 hdac: Parameter set is valid - initializing blockchain parameters...
-2018-07-03 08:02:50 [AppInitAsParams] : minFee = 0, minRelayTxFee=0.00000000 HDAC/kB, minTxFee=0.00000000 HDAC/kB 
-2018-07-03 08:02:50 [AppInitAsParams] : payTxFee = 0.00000000 HDAC/kB, maxTxFee=10 
-2018-07-03 08:02:50 [AppInitAsParams] : MAX_BLOCK_SIZE=8388608, MAX_BLOCK_SIGOPS=167772, MAX_TX_SIGOPS=33554 
-2018-07-03 08:02:50 Wallet mode: 00000003
-2018-07-03 08:02:50 Node paused state is set to 00000000
-2018-07-03 08:02:50 Binding RPC on address 0.0.0.0 port 38822 (IPv4+IPv6 bind any: 0)
-2018-07-03 08:02:50 Bound to [::]:38823
-2018-07-03 08:02:50 Bound to 0.0.0.0:38823
-2018-07-03 08:02:50 Setting banned transaction list:    0 transactions
-2018-07-03 08:02:50 init message: Loading block index...
-2018-07-03 08:02:50 Opening LevelDB in /home/brian/.hdac/master/blocks/index
-2018-07-03 08:02:50 Opened LevelDB successfully
-2018-07-03 08:02:50 Opening LevelDB in /home/brian/.hdac/master/chainstate
-2018-07-03 08:02:50 Opened LevelDB successfully
-2018-07-03 08:02:50 nFileVersion = 100000
-2018-07-03 08:02:50 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
-2018-07-03 08:02:50 LoadBlockIndexDB: last block file = 0
-2018-07-03 08:02:50 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
-2018-07-03 08:02:50 Checking all blk files are present...
-2018-07-03 08:02:50 LoadBlockIndexDB(): transaction index disabled
-2018-07-03 08:02:50 Initializing databases...
-2018-07-03 08:02:50 Pre-allocating up to position 0x1000000 in blk00000.dat
-2018-07-03 08:02:50 New stream. TxID: 7a0a64c2a27e8561ccee92f37c6e725129c347ff574a71278ac7dff54d0d1bae, StreamRef: 0-81-7086, Name: root
-2018-07-03 08:02:50 UpdateTip:            new best=00001abfd032bebc3d7efdd54ae84167277b4d9dec70e7c5117b74d6773e8272  height=0  log2_work=18  tx=1  date=2018-07-03 08:02:50 progress=1.000000  cache=0
-2018-07-03 08:02:50 init message: Verifying blocks...
-2018-07-03 08:02:50  block index              42ms
-2018-07-03 08:02:50 Hdac protocol version: 20000
-2018-07-03 08:02:50 init message: Loading wallet...
-2018-07-03 08:02:50 nFileVersion = 100000
-2018-07-03 08:02:50 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
-2018-07-03 08:02:50  wallet                    1ms
-2018-07-03 08:02:50 mapBlockIndex.size() = 1
-2018-07-03 08:02:50 nBestHeight = 0
-2018-07-03 08:02:50 setKeyPool.size() = 1
-2018-07-03 08:02:50 oldWallet.size() = 0
-2018-07-03 08:02:50 mapWallet.size() = 0
-2018-07-03 08:02:50 mapAddressBook.size() = 1
-2018-07-03 08:02:50 init message: Loading addresses...
-2018-07-03 08:02:50 ERROR: Read : Failed to open file /home/brian/.hdac/master/peers.dat
-2018-07-03 08:02:50 Invalid or missing peers.dat; recreating
-2018-07-03 08:02:50 Loaded 0 addresses from peers.dat  0ms
-2018-07-03 08:02:50 addcon thread start
-2018-07-03 08:02:50 opencon thread start
-2018-07-03 08:02:50 dnsseed thread start
-2018-07-03 08:02:50 Loading addresses from DNS seeds (could take a while)
-2018-07-03 08:02:50 0 addresses found from DNS seeds
-2018-07-03 08:02:50 dnsseed thread exit
-2018-07-03 08:02:50 init message: Done loading
-2018-07-03 08:02:50 HdacMiner started
-2018-07-03 08:02:50 msghand thread start
-2018-07-03 08:02:50 net thread start
-2018-07-03 08:02:50 dumpaddr thread start
-2018-07-03 08:02:50  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
-2018-07-03 08:02:50 Node started
-2018-07-03 08:02:52 HdacMiner: Block Found - 000035ea905688c32f0a7b12292ce6f4b27adc740f1214b6ddbc9dd700a82c22, prev: 00001abfd032bebc3d7efdd54ae84167277b4d9dec70e7c5117b74d6773e8272, height: 1, txs: 1
-2018-07-03 08:02:52 hdac: New Block was received from ME. WZ: -1 NF: 0 BH: 0
-2018-07-03 08:02:52 Pre-allocating up to position 0x100000 in rev00000.dat
-2018-07-03 08:02:52 UpdateTip:            new best=2b0682b629163fa8e962a93c8067f3613e967a941ff6a353afab8b6035aab13a  height=1  log2_work=19  tx=2  date=2018-07-03 08:02:52 progress=1.000000  cache=0
-2018-07-03 08:02:52  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
-2018-07-03 08:02:55 hashmeter     77 khash/s
-2018-07-03 08:03:05 HdacMiner: Block Found - 0000283f9ed2199c967885c85f391101a580c388a8cf801ab9f6df6b4b398aa5, prev: 2b0682b629163fa8e962a93c8067f3613e967a941ff6a353afab8b6035aab13a, height: 2, txs: 1
-2018-07-03 08:03:05 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 1
-2018-07-03 08:03:05 UpdateTip:            new best=4ea13cb92fee21d116adc4f18c15a6d11d3e0baf480650cfa6ebc2931d295853  height=2  log2_work=19.584963  tx=3  date=2018-07-03 08:03:04 progress=1.000000  cache=0
-2018-07-03 08:03:06  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
-2018-07-03 08:03:06 dumpaddr thread stop
-2018-07-03 08:03:06 msghand thread interrupt
-2018-07-03 08:03:06 opencon thread interrupt
-2018-07-03 08:03:06 addcon thread interrupt
-2018-07-03 08:03:06 net thread interrupt
-2018-07-03 08:03:06 Shutdown: In progress...
-2018-07-03 08:03:06 HdacMiner terminated
-2018-07-03 08:03:06 StopNode()
-2018-07-03 08:03:06 Node stopped
-2018-07-03 08:03:06 Shutdown: done
+2018-07-03 08:51:48 Hdac version build 1.03.5 protocol 20000 (May 10 2018, 09:15:25)
+2018-07-03 08:51:48 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
+2018-07-03 08:51:48 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-07-03 08:51:48 Default data directory /home/brian/.hdac/master
+2018-07-03 08:51:48 Using data directory /home/brian/.hdac/master
+2018-07-03 08:51:48 Using config file /home/brian/.hdac/master/master.conf
+2018-07-03 08:51:48 Using at most 125 connections (1024 file descriptors available)
+2018-07-03 08:51:48 Using 4 threads for script verification
+2018-07-03 08:51:48 Using wallet wallet.dat
+2018-07-03 08:51:48 init message: Verifying wallet...
+2018-07-03 08:51:48 CDBEnv::Open : LogDir=/home/brian/.hdac/master/database ErrorFile=/home/brian/.hdac/master/db.log
+2018-07-03 08:51:48 init message: Initializing hdac...
+2018-07-03 08:51:48 nFileVersion = 100000
+2018-07-03 08:51:48 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2018-07-03 08:51:48 hdac: Default key is not found - creating new... 
+2018-07-03 08:51:48 keypool added key 1, size=1
+2018-07-03 08:51:48 keypool added key 2, size=2
+2018-07-03 08:51:48 hdac: Parameter set is new, THIS IS GENESIS NODE - looking for genesis block...
+2018-07-03 08:51:49 [AppInitAsParams] : minFee = 0, minRelayTxFee=0.00000000 HDAC/kB, minTxFee=0.00000000 HDAC/kB 
+2018-07-03 08:51:49 [AppInitAsParams] : payTxFee = 0.00000000 HDAC/kB, maxTxFee=10 
+2018-07-03 08:51:49 [AppInitAsParams] : MAX_BLOCK_SIZE=8388608, MAX_BLOCK_SIGOPS=167772, MAX_TX_SIGOPS=33554 
+2018-07-03 08:51:49 hdac: Genesis block found
+2018-07-03 08:51:49 hdac: Parameter set is valid - initializing blockchain parameters...
+2018-07-03 08:51:49 [AppInitAsParams] : minFee = 0, minRelayTxFee=0.00000000 HDAC/kB, minTxFee=0.00000000 HDAC/kB 
+2018-07-03 08:51:49 [AppInitAsParams] : payTxFee = 0.00000000 HDAC/kB, maxTxFee=10 
+2018-07-03 08:51:49 [AppInitAsParams] : MAX_BLOCK_SIZE=8388608, MAX_BLOCK_SIGOPS=167772, MAX_TX_SIGOPS=33554 
+2018-07-03 08:51:49 Wallet mode: 00000003
+2018-07-03 08:51:49 Node paused state is set to 00000000
+2018-07-03 08:51:49 Binding RPC on address 0.0.0.0 port 38822 (IPv4+IPv6 bind any: 0)
+2018-07-03 08:51:49 Bound to [::]:38823
+2018-07-03 08:51:49 Bound to 0.0.0.0:38823
+2018-07-03 08:51:49 Setting banned transaction list:    0 transactions
+2018-07-03 08:51:49 init message: Loading block index...
+2018-07-03 08:51:49 Opening LevelDB in /home/brian/.hdac/master/blocks/index
+2018-07-03 08:51:49 Opened LevelDB successfully
+2018-07-03 08:51:49 Opening LevelDB in /home/brian/.hdac/master/chainstate
+2018-07-03 08:51:49 Opened LevelDB successfully
+2018-07-03 08:51:49 nFileVersion = 100000
+2018-07-03 08:51:49 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-07-03 08:51:49 LoadBlockIndexDB: last block file = 0
+2018-07-03 08:51:49 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-07-03 08:51:49 Checking all blk files are present...
+2018-07-03 08:51:49 LoadBlockIndexDB(): transaction index disabled
+2018-07-03 08:51:49 Initializing databases...
+2018-07-03 08:51:49 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-07-03 08:51:49 New stream. TxID: 85d4ed594f79c7c9857cbe2dc0cb5ba7cdbb84de9ce5101119adf61371dc5a4d, StreamRef: 0-81-23117, Name: root
+2018-07-03 08:51:49 UpdateTip:            new best=000008a399dec5f5b3e1b330fb3af355a6c6cc89b5fd3059b47052f2666d8ef1  height=0  log2_work=18  tx=1  date=2018-07-03 08:51:48 progress=1.000000  cache=0
+2018-07-03 08:51:49 init message: Verifying blocks...
+2018-07-03 08:51:49  block index              35ms
+2018-07-03 08:51:49 Hdac protocol version: 20000
+2018-07-03 08:51:49 init message: Loading wallet...
+2018-07-03 08:51:49 nFileVersion = 100000
+2018-07-03 08:51:49 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-07-03 08:51:49  wallet                    0ms
+2018-07-03 08:51:49 mapBlockIndex.size() = 1
+2018-07-03 08:51:49 nBestHeight = 0
+2018-07-03 08:51:49 setKeyPool.size() = 1
+2018-07-03 08:51:49 oldWallet.size() = 0
+2018-07-03 08:51:49 mapWallet.size() = 0
+2018-07-03 08:51:49 mapAddressBook.size() = 1
+2018-07-03 08:51:49 init message: Loading addresses...
+2018-07-03 08:51:49 ERROR: Read : Failed to open file /home/brian/.hdac/master/peers.dat
+2018-07-03 08:51:49 Invalid or missing peers.dat; recreating
+2018-07-03 08:51:49 Loaded 0 addresses from peers.dat  0ms
+2018-07-03 08:51:49 dnsseed thread start
+2018-07-03 08:51:49 Loading addresses from DNS seeds (could take a while)
+2018-07-03 08:51:49 dumpaddr thread start
+2018-07-03 08:51:49 0 addresses found from DNS seeds
+2018-07-03 08:51:49 net thread start
+2018-07-03 08:51:49 init message: Done loading
+2018-07-03 08:51:49 msghand thread start
+2018-07-03 08:51:49 HdacMiner started
+2018-07-03 08:51:49 addcon thread start
+2018-07-03 08:51:49 dnsseed thread exit
+2018-07-03 08:51:49  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:51:49 opencon thread start
+2018-07-03 08:51:49 Node started
+2018-07-03 08:51:51 HdacMiner: Block Found - 0000346a06a9259fd11af25d9fa2b32100b504fc1796b4ea2cbbfe75d0a734f3, prev: 000008a399dec5f5b3e1b330fb3af355a6c6cc89b5fd3059b47052f2666d8ef1, height: 1, txs: 1
+2018-07-03 08:51:51 hdac: New Block was received from ME. WZ: -1 NF: 0 BH: 0
+2018-07-03 08:51:51 Pre-allocating up to position 0x100000 in rev00000.dat
+2018-07-03 08:51:51 UpdateTip:            new best=d39ebe796d7f6ec18f0a7c50443865b220dca287f9227ef71e6fcde5e494de20  height=1  log2_work=19  tx=2  date=2018-07-03 08:51:50 progress=1.000000  cache=0
+2018-07-03 08:51:51  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:51:52 HdacMiner: Block Found - 00002f48efa74849bd035e6007172dc281afbb359e2d45f61c92b6e628a1c0fa, prev: d39ebe796d7f6ec18f0a7c50443865b220dca287f9227ef71e6fcde5e494de20, height: 2, txs: 1
+2018-07-03 08:51:52 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 1
+2018-07-03 08:51:52 UpdateTip:            new best=02cee75e4210b1ceeee73fa58c2d5ca42d842d3eef416a3cb23914f232910b3f  height=2  log2_work=19.584963  tx=3  date=2018-07-03 08:51:51 progress=1.000000  cache=0
+2018-07-03 08:51:53  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:51:53 HdacMiner: Block Found - 00000de0484f5a1c0bcaa43416ff2907baf4a4cde27a16a307c0f9908c30912a, prev: 02cee75e4210b1ceeee73fa58c2d5ca42d842d3eef416a3cb23914f232910b3f, height: 3, txs: 1
+2018-07-03 08:51:53 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 2
+2018-07-03 08:51:53 UpdateTip:            new best=4bd147e48f136d3c0c4795ae7b31805ea98708611fb7fc871059a0530721f91e  height=3  log2_work=20  tx=4  date=2018-07-03 08:51:53 progress=1.000000  cache=0
+2018-07-03 08:51:54  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:51:54 hashmeter     33 khash/s
+2018-07-03 08:51:57 HdacMiner: Block Found - 000024c25ee2c815fb70e45d35c3ad6a5445a385c94a9ea91cafd56eb9e27937, prev: 4bd147e48f136d3c0c4795ae7b31805ea98708611fb7fc871059a0530721f91e, height: 4, txs: 1
+2018-07-03 08:51:57 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 3
+2018-07-03 08:51:57 UpdateTip:            new best=b95591885942f9107fcb8391534ce60ecbbbe390c74f88d5547fed312819ca83  height=4  log2_work=20.321928  tx=5  date=2018-07-03 08:51:56 progress=1.000000  cache=0
+2018-07-03 08:51:58  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:00 HdacMiner: Block Found - 00003ac133365d8f21b3c626313c7c9fdc86f627f89763d7a0ad075190fa03ec, prev: b95591885942f9107fcb8391534ce60ecbbbe390c74f88d5547fed312819ca83, height: 5, txs: 1
+2018-07-03 08:52:00 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 4
+2018-07-03 08:52:00 UpdateTip:            new best=05a2dd921a2d2ec1c7790ea9fc2923bc575a8b18adb9bc016bc0f9a4d30b3796  height=5  log2_work=20.584963  tx=6  date=2018-07-03 08:52:00 progress=1.000000  cache=0
+2018-07-03 08:52:02  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:04 HdacMiner: Block Found - 00001b500cf5d908a8e3ae242a9e4c05adbbeee773d05e929f08358547ec1f4b, prev: 05a2dd921a2d2ec1c7790ea9fc2923bc575a8b18adb9bc016bc0f9a4d30b3796, height: 6, txs: 1
+2018-07-03 08:52:04 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 5
+2018-07-03 08:52:04 UpdateTip:            new best=b3de5b3434f59bd069b55c7f702fac959aeb2bff18f64b37a05cacbdb1ab2b38  height=6  log2_work=20.807355  tx=7  date=2018-07-03 08:52:03 progress=1.000000  cache=0
+2018-07-03 08:52:05  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:11 HdacMiner: Block Found - 00003e18395f76be89813557aa7e2b5e80628db2864e09775867e113ffe7197b, prev: b3de5b3434f59bd069b55c7f702fac959aeb2bff18f64b37a05cacbdb1ab2b38, height: 7, txs: 1
+2018-07-03 08:52:11 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 6
+2018-07-03 08:52:11 UpdateTip:            new best=951f669db1ebea0d85354d841068a6965877456929f8ae7d36c1ba3a919c4736  height=7  log2_work=21  tx=8  date=2018-07-03 08:52:11 progress=1.000000  cache=0
+2018-07-03 08:52:12  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:14 HdacMiner: Block Found - 00001a9207c8a8a456eab4221fd26001e69deb956a31314550be9c52824738fb, prev: 951f669db1ebea0d85354d841068a6965877456929f8ae7d36c1ba3a919c4736, height: 8, txs: 1
+2018-07-03 08:52:14 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 7
+2018-07-03 08:52:14 UpdateTip:            new best=e86e919404377cef580fabf96eb5fa928b3fac8ff2ce100c631b8bc314bbd976  height=8  log2_work=21.169925  tx=9  date=2018-07-03 08:52:14 progress=1.000000  cache=0
+2018-07-03 08:52:15  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:20 HdacMiner: Block Found - 000014f012971d7a66123ff60857f98beadeba6f65280a5f6928223d8f646ce7, prev: e86e919404377cef580fabf96eb5fa928b3fac8ff2ce100c631b8bc314bbd976, height: 9, txs: 1
+2018-07-03 08:52:20 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 8
+2018-07-03 08:52:20 UpdateTip:            new best=93f86c26cb26b08987e3c062674e647809f3b836ebc23d5c1357ff0645e29a26  height=9  log2_work=21.321928  tx=10  date=2018-07-03 08:52:19 progress=1.000000  cache=0
+2018-07-03 08:52:21  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:24 HdacMiner: Block Found - 000034ab67e1fc1d397335a9942238a30a7342f4a9c44273af0c1c66c04cbd75, prev: 93f86c26cb26b08987e3c062674e647809f3b836ebc23d5c1357ff0645e29a26, height: 10, txs: 1
+2018-07-03 08:52:24 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 9
+2018-07-03 08:52:24 UpdateTip:            new best=bc612d33176cf46a8326bf70eb4195ace4520838ef67d522ac2892d47a93ed2f  height=10  log2_work=21.459432  tx=11  date=2018-07-03 08:52:24 progress=1.000000  cache=0
+2018-07-03 08:52:25  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:28 HdacMiner: Block Found - 00001b67369f706cb576beb93df0038952ba30858796e396b6ca3882b26eaee1, prev: bc612d33176cf46a8326bf70eb4195ace4520838ef67d522ac2892d47a93ed2f, height: 11, txs: 1
+2018-07-03 08:52:28 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 10
+2018-07-03 08:52:28 UpdateTip:            new best=553120aaa90ebd6764f5a7fa66e2fbec0db2e4ff4fb58725913dbaa6dda462f6  height=11  log2_work=21.584963  tx=12  date=2018-07-03 08:52:28 progress=1.000000  cache=0
+2018-07-03 08:52:29  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:32 HdacMiner: Block Found - 00000af6f5b9a75899cb34908922753246321c28f961b890ff474144cf50ac79, prev: 553120aaa90ebd6764f5a7fa66e2fbec0db2e4ff4fb58725913dbaa6dda462f6, height: 12, txs: 1
+2018-07-03 08:52:32 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 11
+2018-07-03 08:52:32 UpdateTip:            new best=fc309b6cf64d820e8e9804079c669a2c0b1b854194783651acc4d7582c5d2579  height=12  log2_work=21.70044  tx=13  date=2018-07-03 08:52:31 progress=1.000000  cache=0
+2018-07-03 08:52:33  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:35 HdacMiner: Block Found - 0000169185d66efeb226c07db7fb654d6aeeaef577221e6e6549b29ee724f852, prev: fc309b6cf64d820e8e9804079c669a2c0b1b854194783651acc4d7582c5d2579, height: 13, txs: 1
+2018-07-03 08:52:35 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 12
+2018-07-03 08:52:35 UpdateTip:            new best=c98b486dcd1816f34189edc34931f4e9e49a3d8e66549f1284e8ee377b707082  height=13  log2_work=21.807355  tx=14  date=2018-07-03 08:52:35 progress=1.000000  cache=0
+2018-07-03 08:52:36  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:37 HdacMiner: Block Found - 00003e63bf472388aad9deb74ddef9349c36f7f617a6f9862b3fa37760f7aa91, prev: c98b486dcd1816f34189edc34931f4e9e49a3d8e66549f1284e8ee377b707082, height: 14, txs: 1
+2018-07-03 08:52:37 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 13
+2018-07-03 08:52:37 UpdateTip:            new best=6ac1bc51e4f60b3400b98815de1b91bc58907e33b274c25f72a115cb55e3a219  height=14  log2_work=21.906891  tx=15  date=2018-07-03 08:52:37 progress=1.000000  cache=0
+2018-07-03 08:52:38  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:42 HdacMiner: Block Found - 0000085f9e27b1a27dd4dba54896ec94daa1f2cd57292e858d4160c029b43ea5, prev: 6ac1bc51e4f60b3400b98815de1b91bc58907e33b274c25f72a115cb55e3a219, height: 15, txs: 1
+2018-07-03 08:52:42 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 14
+2018-07-03 08:52:42 UpdateTip:            new best=e99be45f38600f7f5e0eac0cf12764d43a7b2a4d1736bed30e54318af837254c  height=15  log2_work=22  tx=16  date=2018-07-03 08:52:41 progress=1.000000  cache=0
+2018-07-03 08:52:43  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:46 HdacMiner: Block Found - 00000b675ec8d4ec50d65a8c51af98a93be4a00839ade504bffe3c5aaae46963, prev: e99be45f38600f7f5e0eac0cf12764d43a7b2a4d1736bed30e54318af837254c, height: 16, txs: 1
+2018-07-03 08:52:46 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 15
+2018-07-03 08:52:46 UpdateTip:            new best=995c756d119cc5058293982eacda36f8bb387a8448e7004e83efd2e146116db4  height=16  log2_work=22.087463  tx=17  date=2018-07-03 08:52:46 progress=1.000000  cache=0
+2018-07-03 08:52:47  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:48 HdacMiner: Block Found - 00000650feeaad9457ce5dc7985f98934031cafe4baa9b178eead5ad52243aec, prev: 995c756d119cc5058293982eacda36f8bb387a8448e7004e83efd2e146116db4, height: 17, txs: 1
+2018-07-03 08:52:48 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 16
+2018-07-03 08:52:48 UpdateTip:            new best=900c2f22eb94ff3664bd21208367c362ed12028c6d394c7a321862edec2aec62  height=17  log2_work=22.169925  tx=18  date=2018-07-03 08:52:47 progress=1.000000  cache=0
+2018-07-03 08:52:49  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:50 Adding fixed seed nodes as DNS doesn't seem to be available.
+2018-07-03 08:52:56 HdacMiner: Block Found - 00001d95a76fe3c2782ec79ba0f452a6553d1391ec76749fb79333d5b94477ae, prev: 900c2f22eb94ff3664bd21208367c362ed12028c6d394c7a321862edec2aec62, height: 18, txs: 1
+2018-07-03 08:52:56 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 17
+2018-07-03 08:52:56 UpdateTip:            new best=a9cc9a015441ff4a2276dc71ad140b1142b89fa0f72763339e075b82983e7285  height=18  log2_work=22.247928  tx=19  date=2018-07-03 08:52:55 progress=1.000000  cache=0
+2018-07-03 08:52:57  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:52:58 HdacMiner: Block Found - 00002821041f0e72c2d331ab10b8523db88981c8349f723ff7c382b2235cb442, prev: a9cc9a015441ff4a2276dc71ad140b1142b89fa0f72763339e075b82983e7285, height: 19, txs: 1
+2018-07-03 08:52:58 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 18
+2018-07-03 08:52:58 UpdateTip:            new best=9c678f59c34cb688a9a7a581058610342205583159bda8277cf02b19f740f036  height=19  log2_work=22.321928  tx=20  date=2018-07-03 08:52:57 progress=1.000000  cache=0
+2018-07-03 08:52:59  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:02 HdacMiner: Block Found - 000038455bd445d05e40a89ee2be0b4796ac5aac134edffadbc145232783f329, prev: 9c678f59c34cb688a9a7a581058610342205583159bda8277cf02b19f740f036, height: 20, txs: 1
+2018-07-03 08:53:02 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 19
+2018-07-03 08:53:02 UpdateTip:            new best=95edddc039cfec40fb95b9eafc9ddbdb32ea335ee32c22a59b1d45f339c68c1b  height=20  log2_work=22.392317  tx=21  date=2018-07-03 08:53:02 progress=1.000000  cache=0
+2018-07-03 08:53:03  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:04 HdacMiner: Block Found - 00003a3e328052dc70e5f01251fb120d2d9caa872e686098e2b0b5de5aefdef4, prev: 95edddc039cfec40fb95b9eafc9ddbdb32ea335ee32c22a59b1d45f339c68c1b, height: 21, txs: 1
+2018-07-03 08:53:04 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 20
+2018-07-03 08:53:04 UpdateTip:            new best=11af685e5483d5ae0b3d01bbcc22138918ff7bda2690aa264097ec1a9ac41882  height=21  log2_work=22.459432  tx=22  date=2018-07-03 08:53:03 progress=1.000000  cache=0
+2018-07-03 08:53:05  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:05 HdacMiner: Block Found - 00003be2e7f1b4bf7e083d44101cd8b6fc3fec8f4321fb536691e2cbe3e4e113, prev: 11af685e5483d5ae0b3d01bbcc22138918ff7bda2690aa264097ec1a9ac41882, height: 22, txs: 1
+2018-07-03 08:53:05 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 21
+2018-07-03 08:53:05 UpdateTip:            new best=17f44a67ba09193cf85a649b572196e07609aeb6b18ba3dd27e1fe26c52dc83e  height=22  log2_work=22.523562  tx=23  date=2018-07-03 08:53:05 progress=1.000000  cache=0
+2018-07-03 08:53:07  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:07 HdacMiner: Block Found - 00002950fdd18a910ca478e6340494bd8ed57b5d879fd01750830d5679d46844, prev: 17f44a67ba09193cf85a649b572196e07609aeb6b18ba3dd27e1fe26c52dc83e, height: 23, txs: 1
+2018-07-03 08:53:07 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 22
+2018-07-03 08:53:07 UpdateTip:            new best=f488f6d63b89dcb088cedfd7a9e7a98d3d19a2534c0a9f9e2a426452aeb27a95  height=23  log2_work=22.584963  tx=24  date=2018-07-03 08:53:07 progress=1.000000  cache=0
+2018-07-03 08:53:08  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:13 HdacMiner: Block Found - 00003579898b7d8df4c36237cd51530b813c5abe9a0ab468eb0e633aa219cdce, prev: f488f6d63b89dcb088cedfd7a9e7a98d3d19a2534c0a9f9e2a426452aeb27a95, height: 24, txs: 1
+2018-07-03 08:53:13 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 23
+2018-07-03 08:53:13 UpdateTip:            new best=c3b26f90d0a3d66308de5aba3e2f1fe560ff23a2168cae6da82b6e02b386adaa  height=24  log2_work=22.643856  tx=25  date=2018-07-03 08:53:13 progress=1.000000  cache=0
+2018-07-03 08:53:14  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:16 HdacMiner: Block Found - 00002ac2078e08e3c1bcf37a5755adbb939152ab0a7ba1082bd26ce33bdfcbef, prev: c3b26f90d0a3d66308de5aba3e2f1fe560ff23a2168cae6da82b6e02b386adaa, height: 25, txs: 1
+2018-07-03 08:53:16 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 24
+2018-07-03 08:53:16 UpdateTip:            new best=902ce47870dbb5178e8547ff43bec1f2c70abe6468be717101e65764cc5d740d  height=25  log2_work=22.70044  tx=26  date=2018-07-03 08:53:15 progress=1.000000  cache=0
+2018-07-03 08:53:17  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:18 HdacMiner: Block Found - 000025a0bdd2b878e4d96b6b594ab258cf9df6e1ef24667247f5d641038ea7ad, prev: 902ce47870dbb5178e8547ff43bec1f2c70abe6468be717101e65764cc5d740d, height: 26, txs: 1
+2018-07-03 08:53:18 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 25
+2018-07-03 08:53:19 UpdateTip:            new best=5c5682156a40a7288b0ed7fb08e249bbb7707c69561f230ea2c5c5885051dbc0  height=26  log2_work=22.754888  tx=27  date=2018-07-03 08:53:18 progress=1.000000  cache=0
+2018-07-03 08:53:20  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:20 HdacMiner: Block Found - 0000362f960975138717ee0c383a72f884f93be2c03df50e9d4b5547402ad311, prev: 5c5682156a40a7288b0ed7fb08e249bbb7707c69561f230ea2c5c5885051dbc0, height: 27, txs: 1
+2018-07-03 08:53:20 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 26
+2018-07-03 08:53:20 UpdateTip:            new best=8073a8b870a09591e3ec75bbe44abbc7d7fddcffd2b1b744b058080b8da320d4  height=27  log2_work=22.807355  tx=28  date=2018-07-03 08:53:20 progress=1.000000  cache=0
+2018-07-03 08:53:21  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:24 HdacMiner: Block Found - 000010bc58a0e27e5242e7001109c82e6fee689542131ede0a8de0f35b9cb010, prev: 8073a8b870a09591e3ec75bbe44abbc7d7fddcffd2b1b744b058080b8da320d4, height: 28, txs: 1
+2018-07-03 08:53:24 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 27
+2018-07-03 08:53:24 UpdateTip:            new best=406209d3e4b5109eddd2dd668890e693fc75a9a94ce0e3afff15664262acb507  height=28  log2_work=22.857981  tx=29  date=2018-07-03 08:53:24 progress=1.000000  cache=0
+2018-07-03 08:53:25  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:26 HdacMiner: Block Found - 000011f318fe29729af15b3191d96175b32475c87f911801e9617613d1cd8911, prev: 406209d3e4b5109eddd2dd668890e693fc75a9a94ce0e3afff15664262acb507, height: 29, txs: 1
+2018-07-03 08:53:26 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 28
+2018-07-03 08:53:26 UpdateTip:            new best=ba3d19f6d184967ad1564a1cb62538479d932897c5dcb3ef6a5f062794f94f8d  height=29  log2_work=22.906891  tx=30  date=2018-07-03 08:53:26 progress=1.000000  cache=0
+2018-07-03 08:53:27  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:29 HdacMiner: Block Found - 00000d0fcd130db80f0628afdcee41b35c6a22605b42624cb4d8d38ec28017b5, prev: ba3d19f6d184967ad1564a1cb62538479d932897c5dcb3ef6a5f062794f94f8d, height: 30, txs: 1
+2018-07-03 08:53:29 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 29
+2018-07-03 08:53:29 UpdateTip:            new best=a38c8fecf1ecdcc7868189dd181c8ec5073d0d974769d93f08fb604a250ebe9f  height=30  log2_work=22.954196  tx=31  date=2018-07-03 08:53:29 progress=1.000000  cache=0
+2018-07-03 08:53:30  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:32 HdacMiner: Block Found - 0000173e7d44efb2ab7e44f165d1cbe19b98cf6c74b7e250f50e4c2b476bee86, prev: a38c8fecf1ecdcc7868189dd181c8ec5073d0d974769d93f08fb604a250ebe9f, height: 31, txs: 1
+2018-07-03 08:53:32 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 30
+2018-07-03 08:53:32 UpdateTip:            new best=138bb13bb5769831aa1edced0be8a3e9aca043ea32e744acb13bb5c555b9e5db  height=31  log2_work=23  tx=32  date=2018-07-03 08:53:31 progress=1.000000  cache=0
+2018-07-03 08:53:33  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:43 HdacMiner: Block Found - 00001c72e30a20da2838c38c9bc8327732ee4539af44698eebf8c763d68517ab, prev: 138bb13bb5769831aa1edced0be8a3e9aca043ea32e744acb13bb5c555b9e5db, height: 32, txs: 1
+2018-07-03 08:53:43 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 31
+2018-07-03 08:53:43 UpdateTip:            new best=df969c69e0e593dd39ad9352d152a7c56cdc6b7955d4b808f25c627da164ce41  height=32  log2_work=23.044394  tx=33  date=2018-07-03 08:53:43 progress=1.000000  cache=0
+2018-07-03 08:53:44  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:44 HdacMiner: Block Found - 00001a71d8ecbf2117c29f240c98396c04c427c991f9c5d3c7e321d3fb3fe182, prev: df969c69e0e593dd39ad9352d152a7c56cdc6b7955d4b808f25c627da164ce41, height: 33, txs: 1
+2018-07-03 08:53:44 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 32
+2018-07-03 08:53:44 UpdateTip:            new best=63b859adf8ebf8996b9c7fa29b7a2f7cc1fb6a2a81aa034aec6ff6420ad3330d  height=33  log2_work=23.087463  tx=34  date=2018-07-03 08:53:44 progress=1.000000  cache=0
+2018-07-03 08:53:45  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:47 HdacMiner: Block Found - 0000342e14daf3fff3963d93c69433321f96e96ae282227d52cb4fa2a58b1638, prev: 63b859adf8ebf8996b9c7fa29b7a2f7cc1fb6a2a81aa034aec6ff6420ad3330d, height: 34, txs: 1
+2018-07-03 08:53:47 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 33
+2018-07-03 08:53:47 UpdateTip:            new best=e269eb83031b4d2efc16971618ca3b03f1079d9b3c12dd2769c9dc3a0323e6f6  height=34  log2_work=23.129283  tx=35  date=2018-07-03 08:53:47 progress=1.000000  cache=0
+2018-07-03 08:53:48  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:49 HdacMiner: Block Found - 000004d32948ff0fd1bd207a75354930a8f1feb2687f2a64dd84fefbd48aad88, prev: e269eb83031b4d2efc16971618ca3b03f1079d9b3c12dd2769c9dc3a0323e6f6, height: 35, txs: 1
+2018-07-03 08:53:49 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 34
+2018-07-03 08:53:49 UpdateTip:            new best=25a053827b3af998a1dafdde806ec08954e7f3cb44807454d980bdd36dea8cac  height=35  log2_work=23.169925  tx=36  date=2018-07-03 08:53:48 progress=1.000000  cache=0
+2018-07-03 08:53:50  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:52 HdacMiner: Block Found - 0000327bae7a5f0ebcc03bb848751df174cc17b578ff05c0e60c9466cfebfa9e, prev: 25a053827b3af998a1dafdde806ec08954e7f3cb44807454d980bdd36dea8cac, height: 36, txs: 1
+2018-07-03 08:53:52 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 35
+2018-07-03 08:53:52 UpdateTip:            new best=353b8646de86afa53c46fbd82644d9427562ca6e8c5a2c99a720e4ac478b77d1  height=36  log2_work=23.209453  tx=37  date=2018-07-03 08:53:52 progress=1.000000  cache=0
+2018-07-03 08:53:53  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:53:54 HdacMiner: Block Found - 0000086fb3664453fb501c3fcfbdc0789ac839557485b856df69752b3f5590e9, prev: 353b8646de86afa53c46fbd82644d9427562ca6e8c5a2c99a720e4ac478b77d1, height: 37, txs: 1
+2018-07-03 08:53:54 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 36
+2018-07-03 08:53:54 UpdateTip:            new best=053fe8384f8bf9fc1857b552c2f67eb52675d584134ab74a7c3de4ad410c2f37  height=37  log2_work=23.247928  tx=38  date=2018-07-03 08:53:54 progress=1.000000  cache=0
+2018-07-03 08:53:55  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:01 HdacMiner: Block Found - 00002845c2b54fd31184f746607dd71fcc9468a7d88e7c9487431ffa518c2ea6, prev: 053fe8384f8bf9fc1857b552c2f67eb52675d584134ab74a7c3de4ad410c2f37, height: 38, txs: 1
+2018-07-03 08:54:01 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 37
+2018-07-03 08:54:01 UpdateTip:            new best=f24ad788fd627e495902808dc813850d3f7fa95bc1ee9a44c6de25c09fb08019  height=38  log2_work=23.285402  tx=39  date=2018-07-03 08:54:01 progress=1.000000  cache=0
+2018-07-03 08:54:02  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:02 HdacMiner: Block Found - 00001d18236c91dc8e8ab346e37615de9698e64cc618366b8b172e9daec36de8, prev: f24ad788fd627e495902808dc813850d3f7fa95bc1ee9a44c6de25c09fb08019, height: 39, txs: 1
+2018-07-03 08:54:02 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 38
+2018-07-03 08:54:02 UpdateTip:            new best=e6fa61ad86f779cecd53b5fafa727679d5361bf3b1eab50d89f780e4175394ba  height=39  log2_work=23.321928  tx=40  date=2018-07-03 08:54:02 progress=1.000000  cache=0
+2018-07-03 08:54:04  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:06 HdacMiner: Block Found - 00003241d291ef0ba7e4b0e0a1afaa06c99d417727c29c0f755349b34a5a96e6, prev: e6fa61ad86f779cecd53b5fafa727679d5361bf3b1eab50d89f780e4175394ba, height: 40, txs: 1
+2018-07-03 08:54:06 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 39
+2018-07-03 08:54:06 UpdateTip:            new best=c3695d89982351d84900b0806484e839fec681a61fbe66a36e09444aa7a4f92c  height=40  log2_work=23.357552  tx=41  date=2018-07-03 08:54:06 progress=1.000000  cache=0
+2018-07-03 08:54:07  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:18 HdacMiner: Block Found - 00003c6be75deefd17d08f9a6ce9b9229e343f378055a00ba709d52ade357682, prev: c3695d89982351d84900b0806484e839fec681a61fbe66a36e09444aa7a4f92c, height: 41, txs: 1
+2018-07-03 08:54:18 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 40
+2018-07-03 08:54:18 UpdateTip:            new best=57fd096f09d7ac87f04107c6d512232a5898e37321b9092e20390a2ef779efbc  height=41  log2_work=23.392317  tx=42  date=2018-07-03 08:54:18 progress=1.000000  cache=0
+2018-07-03 08:54:19  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:25 HdacMiner: Block Found - 00000c9e7d62178b0c979e39aee3d593c3eb05562d80bbb363751e517e5fb0e9, prev: 57fd096f09d7ac87f04107c6d512232a5898e37321b9092e20390a2ef779efbc, height: 42, txs: 1
+2018-07-03 08:54:25 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 41
+2018-07-03 08:54:25 UpdateTip:            new best=68a66416480113a09e8d1d28cd7c8d9962ad6e99a5cf27d9b8321c2a57392b37  height=42  log2_work=23.426265  tx=43  date=2018-07-03 08:54:24 progress=1.000000  cache=0
+2018-07-03 08:54:26  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:28 HdacMiner: Block Found - 00002341453c514217ae8ff4e589e5f487b9e0abf6ce350901bab703369f6567, prev: 68a66416480113a09e8d1d28cd7c8d9962ad6e99a5cf27d9b8321c2a57392b37, height: 43, txs: 1
+2018-07-03 08:54:28 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 42
+2018-07-03 08:54:28 UpdateTip:            new best=e08a3f5803bb6e5b0c8e9a947a5aa61dbd208f9a7392ce9a61aa760629f5f467  height=43  log2_work=23.459432  tx=44  date=2018-07-03 08:54:27 progress=1.000000  cache=0
+2018-07-03 08:54:29  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:34 HdacMiner: Block Found - 0000155d90a2aee663ccddcd3d7cd2150c1fe131ddb69910793742f2eefe7891, prev: e08a3f5803bb6e5b0c8e9a947a5aa61dbd208f9a7392ce9a61aa760629f5f467, height: 44, txs: 1
+2018-07-03 08:54:34 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 43
+2018-07-03 08:54:34 UpdateTip:            new best=63e6b621a6be50d84af9705aa2a719bc6a5c91878c708b842b51a5e0a5700d44  height=44  log2_work=23.491853  tx=45  date=2018-07-03 08:54:34 progress=1.000000  cache=0
+2018-07-03 08:54:35  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:35 HdacMiner: Block Found - 0000118ee1495261d1d9e0978376aaddd1b4bf1d0858ef6bab8f8400085a1d88, prev: 63e6b621a6be50d84af9705aa2a719bc6a5c91878c708b842b51a5e0a5700d44, height: 45, txs: 1
+2018-07-03 08:54:35 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 44
+2018-07-03 08:54:35 UpdateTip:            new best=addc497bf2b542d36ea31a864ff8fab8d7372d0cb22ecb022446fa10d95d4dde  height=45  log2_work=23.523562  tx=46  date=2018-07-03 08:54:35 progress=1.000000  cache=0
+2018-07-03 08:54:36  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:39 HdacMiner: Block Found - 00002ac6766acb70c17816bdc268d6d4d9930fba625f468e5a71df98a95671de, prev: addc497bf2b542d36ea31a864ff8fab8d7372d0cb22ecb022446fa10d95d4dde, height: 46, txs: 1
+2018-07-03 08:54:39 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 45
+2018-07-03 08:54:39 UpdateTip:            new best=140b3bc763e2cc5a3f0257597de5a5940a7545e5f1360f9965dac94d274250d1  height=46  log2_work=23.554589  tx=47  date=2018-07-03 08:54:38 progress=1.000000  cache=0
+2018-07-03 08:54:40  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:43 HdacMiner: Block Found - 00001d746ac014137f75210920372bc137d9e4d94f7091ef66fee41ce8021c71, prev: 140b3bc763e2cc5a3f0257597de5a5940a7545e5f1360f9965dac94d274250d1, height: 47, txs: 1
+2018-07-03 08:54:43 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 46
+2018-07-03 08:54:43 UpdateTip:            new best=d0e91367d80c72a81e642ddd9ac30ce8ad78bda2fc4d359f8acbb1dee3bfd0a4  height=47  log2_work=23.584963  tx=48  date=2018-07-03 08:54:43 progress=1.000000  cache=0
+2018-07-03 08:54:45  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:45 HdacMiner: Block Found - 00003d74fb7af62ab014dff76d55f12384a881d9a616e4012bacccc03473225d, prev: d0e91367d80c72a81e642ddd9ac30ce8ad78bda2fc4d359f8acbb1dee3bfd0a4, height: 48, txs: 1
+2018-07-03 08:54:45 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 47
+2018-07-03 08:54:45 UpdateTip:            new best=0e866750135fa82afbbd0621d1c8560150702cec49fc805018fc56b9b8c2ef13  height=48  log2_work=23.61471  tx=49  date=2018-07-03 08:54:45 progress=1.000000  cache=0
+2018-07-03 08:54:47  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:50 HdacMiner: Block Found - 000029323c9b631a64253cbda7484c71dc2b394d4122b9e9d8b048cb01325a78, prev: 0e866750135fa82afbbd0621d1c8560150702cec49fc805018fc56b9b8c2ef13, height: 49, txs: 1
+2018-07-03 08:54:50 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 48
+2018-07-03 08:54:50 UpdateTip:            new best=c14f2d623f6850bb1da8f92f724514a56cd3bd4ea032362f6f4489ab778d6b6a  height=49  log2_work=23.643856  tx=50  date=2018-07-03 08:54:50 progress=1.000000  cache=0
+2018-07-03 08:54:51  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:54:58 HdacMiner: Block Found - 0000113913eac8b14ea0c2accbdc547b43566e0b86d9f123e9e3e6705f44ac3f, prev: c14f2d623f6850bb1da8f92f724514a56cd3bd4ea032362f6f4489ab778d6b6a, height: 50, txs: 1
+2018-07-03 08:54:58 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 49
+2018-07-03 08:54:58 UpdateTip:            new best=dc3d80937f5d74f0a5b52c2f1b084d67248de69e748d8406902d9d51ce6c194d  height=50  log2_work=23.672425  tx=51  date=2018-07-03 08:54:57 progress=1.000000  cache=0
+2018-07-03 08:54:59  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:00 HdacMiner: Block Found - 0000397d3bb7824be2494d966b4b0b1fd4205b68b9b85bc766ea8cd38e16705d, prev: dc3d80937f5d74f0a5b52c2f1b084d67248de69e748d8406902d9d51ce6c194d, height: 51, txs: 1
+2018-07-03 08:55:00 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 50
+2018-07-03 08:55:00 UpdateTip:            new best=ae3931ffe3eca59c19c849a6069a67a65735dbf346d12cddc47cd6e7d617477b  height=51  log2_work=23.70044  tx=52  date=2018-07-03 08:55:00 progress=1.000000  cache=0
+2018-07-03 08:55:01  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:08 HdacMiner: Block Found - 0000310fb961b068352f35d56450a81cc271ef3aa0c38c88d1031293f8e9339b, prev: ae3931ffe3eca59c19c849a6069a67a65735dbf346d12cddc47cd6e7d617477b, height: 52, txs: 1
+2018-07-03 08:55:08 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 51
+2018-07-03 08:55:08 UpdateTip:            new best=f19c3a302f26aa9bed06b87da5cfed193b5d508e9e5ae79bf4f72f1959a3b640  height=52  log2_work=23.72792  tx=53  date=2018-07-03 08:55:07 progress=1.000000  cache=0
+2018-07-03 08:55:09  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:14 HdacMiner: Block Found - 00003d579c1e4d27adb2feee8f9a3363c120f77af609080370722e9704203dfa, prev: f19c3a302f26aa9bed06b87da5cfed193b5d508e9e5ae79bf4f72f1959a3b640, height: 53, txs: 1
+2018-07-03 08:55:14 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 52
+2018-07-03 08:55:14 UpdateTip:            new best=421b8ed03f89d72d55a143a246828688a9603483b9b906d142af0f693716b696  height=53  log2_work=23.754888  tx=54  date=2018-07-03 08:55:13 progress=1.000000  cache=0
+2018-07-03 08:55:15  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:15 HdacMiner: Block Found - 00002edb331d8af244d48eb8229702e15dc88d0ea30592aa9812ebf149ac11b3, prev: 421b8ed03f89d72d55a143a246828688a9603483b9b906d142af0f693716b696, height: 54, txs: 1
+2018-07-03 08:55:15 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 53
+2018-07-03 08:55:15 UpdateTip:            new best=d405cd908ee60b516cab6ac5588bfc797da0880585391bf1830fa706633bc394  height=54  log2_work=23.78136  tx=55  date=2018-07-03 08:55:15 progress=1.000000  cache=0
+2018-07-03 08:55:17  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:18 HdacMiner: Block Found - 000021cd26e838a1a88611d8b00b373fc81ba1e317ea576aa6d558664ba52220, prev: d405cd908ee60b516cab6ac5588bfc797da0880585391bf1830fa706633bc394, height: 55, txs: 1
+2018-07-03 08:55:18 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 54
+2018-07-03 08:55:18 UpdateTip:            new best=47ec21545c834626c0fb025325b2391adc4077a490155e130e1e2a416a973f48  height=55  log2_work=23.807355  tx=56  date=2018-07-03 08:55:18 progress=1.000000  cache=0
+2018-07-03 08:55:19  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:24 HdacMiner: Block Found - 000033b98344829a26d3438da359f959c9588ea9f187ba0997a4262bf21c1a7d, prev: 47ec21545c834626c0fb025325b2391adc4077a490155e130e1e2a416a973f48, height: 56, txs: 1
+2018-07-03 08:55:24 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 55
+2018-07-03 08:55:24 UpdateTip:            new best=e3b21d4af5405ec417a55494509564bad2283009f9477e7a0879a70de98af2c9  height=56  log2_work=23.83289  tx=57  date=2018-07-03 08:55:24 progress=1.000000  cache=0
+2018-07-03 08:55:25  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:27 HdacMiner: Block Found - 000036d391e3611420ecd0961ea65731e117f434a1ef0cbcf46ab2bce0e25c81, prev: e3b21d4af5405ec417a55494509564bad2283009f9477e7a0879a70de98af2c9, height: 57, txs: 1
+2018-07-03 08:55:27 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 56
+2018-07-03 08:55:27 UpdateTip:            new best=bdc234932ef13df284bbbe6150e8ce0effa053b9a0570c2a47c6c06271c37188  height=57  log2_work=23.857981  tx=58  date=2018-07-03 08:55:26 progress=1.000000  cache=0
+2018-07-03 08:55:28  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:29 HdacMiner: Block Found - 000015b00bf593f6c71b1405b6e513eb471bf4dc9bbfd93c021a8e16f393d1cc, prev: bdc234932ef13df284bbbe6150e8ce0effa053b9a0570c2a47c6c06271c37188, height: 58, txs: 1
+2018-07-03 08:55:29 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 57
+2018-07-03 08:55:29 UpdateTip:            new best=b95f078cf60af89ab4072ffbb4c4ab10c46cf321397f8d6de292f25de7d6935f  height=58  log2_work=23.882643  tx=59  date=2018-07-03 08:55:29 progress=1.000000  cache=0
+2018-07-03 08:55:30  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:32 HdacMiner: Block Found - 000018c811b5dbbb0a2de724d66da9d49a0990a5b99006419d607e1e9c6caf1c, prev: b95f078cf60af89ab4072ffbb4c4ab10c46cf321397f8d6de292f25de7d6935f, height: 59, txs: 1
+2018-07-03 08:55:32 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 58
+2018-07-03 08:55:32 UpdateTip:            new best=d622bec2ec51addbdd8d07c66323cfeff506504efcfcb809546fff75e1c17447  height=59  log2_work=23.906891  tx=60  date=2018-07-03 08:55:32 progress=1.000000  cache=0
+2018-07-03 08:55:33  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:39 HdacMiner: Block Found - 00001637d953021606152bb1fe93acbe1cafbd7d2de67f18ce4f109a55f1f923, prev: d622bec2ec51addbdd8d07c66323cfeff506504efcfcb809546fff75e1c17447, height: 60, txs: 1
+2018-07-03 08:55:39 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 59
+2018-07-03 08:55:40 UpdateTip:            new best=0a6c4096f220571a73fcf3d7ccf12be990f2d9ac9923d06fe838d4e3184b398b  height=60  log2_work=23.930737  tx=61  date=2018-07-03 08:55:39 progress=1.000000  cache=0
+2018-07-03 08:55:41  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:45 HdacMiner: Block Found - 000012eec1e58c9d1e39a04a7c024f0a5149380db437e34744ee93a2859bc4f4, prev: 0a6c4096f220571a73fcf3d7ccf12be990f2d9ac9923d06fe838d4e3184b398b, height: 61, txs: 1
+2018-07-03 08:55:45 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 60
+2018-07-03 08:55:45 UpdateTip:            new best=d0ae14fe3cdfa98dc445b0d80ab8cb58d93ef1d9128e23ff44fc2d7f6ef90edc  height=61  log2_work=23.954196  tx=62  date=2018-07-03 08:55:44 progress=1.000000  cache=0
+2018-07-03 08:55:46  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:48 HdacMiner: Block Found - 000033f82850ce5a6f75e5e63090f89b692e40f69bb60dac9ccd1cf66beccbfa, prev: d0ae14fe3cdfa98dc445b0d80ab8cb58d93ef1d9128e23ff44fc2d7f6ef90edc, height: 62, txs: 1
+2018-07-03 08:55:48 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 61
+2018-07-03 08:55:48 UpdateTip:            new best=267b3fb0c5e876d5db5125f5dad14ea90955e991de58660f4c90504f0e4d0518  height=62  log2_work=23.97728  tx=63  date=2018-07-03 08:55:47 progress=1.000000  cache=0
+2018-07-03 08:55:49  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:52 HdacMiner: Block Found - 00002f42238830d0f0bda3b29b791bb4b53a2600eeaab83ea473cfad64479ffe, prev: 267b3fb0c5e876d5db5125f5dad14ea90955e991de58660f4c90504f0e4d0518, height: 63, txs: 1
+2018-07-03 08:55:52 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 62
+2018-07-03 08:55:52 UpdateTip:            new best=470b1bd8d9864f1938dedbb2f69ead4143b79d9e904bb08f49aa62b16a5a4620  height=63  log2_work=24  tx=64  date=2018-07-03 08:55:51 progress=1.000000  cache=0
+2018-07-03 08:55:53  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:55:57 HdacMiner: Block Found - 000033a3ff31a900cdf6577684fbcbd732fb2ff9bf87c909f29a5d4e753983e2, prev: 470b1bd8d9864f1938dedbb2f69ead4143b79d9e904bb08f49aa62b16a5a4620, height: 64, txs: 1
+2018-07-03 08:55:57 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 63
+2018-07-03 08:55:57 UpdateTip:            new best=6bbccb232e68112863ca3aaee860e0de78c5b01c4d1b3a15467129de1a5fd56e  height=64  log2_work=24.022368  tx=65  date=2018-07-03 08:55:57 progress=1.000000  cache=0
+2018-07-03 08:55:58  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:01 HdacMiner: Block Found - 00000ae044bbae2fb3515c0620df7c453ac037b55bf327f5d1d6ce6d11de6e8e, prev: 6bbccb232e68112863ca3aaee860e0de78c5b01c4d1b3a15467129de1a5fd56e, height: 65, txs: 1
+2018-07-03 08:56:01 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 64
+2018-07-03 08:56:01 UpdateTip:            new best=76a7e69e37a51f0d1621eb4c41a16d53205962329e195eae686afe312885d452  height=65  log2_work=24.044394  tx=66  date=2018-07-03 08:56:00 progress=1.000000  cache=0
+2018-07-03 08:56:02  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:18 HdacMiner: Block Found - 000015f3319b9f19d70a44e9b3c3830b684b0e5b023c35557ecee634d171c0c5, prev: 76a7e69e37a51f0d1621eb4c41a16d53205962329e195eae686afe312885d452, height: 66, txs: 1
+2018-07-03 08:56:18 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 65
+2018-07-03 08:56:18 UpdateTip:            new best=28b91e935452f3b7ec547670a59e3b407a22b71503befd25838243745e8d3e6a  height=66  log2_work=24.066089  tx=67  date=2018-07-03 08:56:18 progress=1.000000  cache=0
+2018-07-03 08:56:19  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:24 HdacMiner: Block Found - 00001511234fe1cd460655f11ec1042f63f6bd7f7f76f548f78eb074cfecf7b5, prev: 28b91e935452f3b7ec547670a59e3b407a22b71503befd25838243745e8d3e6a, height: 67, txs: 1
+2018-07-03 08:56:24 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 66
+2018-07-03 08:56:24 UpdateTip:            new best=3e653bac458d019d9f9b0c1d92399cd4c1ec93a8200a5c06967bbf6a5e8299c6  height=67  log2_work=24.087463  tx=68  date=2018-07-03 08:56:23 progress=1.000000  cache=0
+2018-07-03 08:56:25  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:26 HdacMiner: Block Found - 000032d23f02ee190881df9b9dc401c5f26431eb0beb7d7ea45a19b17ca5f388, prev: 3e653bac458d019d9f9b0c1d92399cd4c1ec93a8200a5c06967bbf6a5e8299c6, height: 68, txs: 1
+2018-07-03 08:56:26 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 67
+2018-07-03 08:56:26 UpdateTip:            new best=c9c6fa2932da43fa85dfd22b572b268d92d7ffe4ef5ae513fccbbf56b2f01e71  height=68  log2_work=24.108524  tx=69  date=2018-07-03 08:56:25 progress=1.000000  cache=0
+2018-07-03 08:56:27  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:28 HdacMiner: Block Found - 00003579d78ba3e48d06848a01bc4c987b32147748d860cbd0e690063b8262e6, prev: c9c6fa2932da43fa85dfd22b572b268d92d7ffe4ef5ae513fccbbf56b2f01e71, height: 69, txs: 1
+2018-07-03 08:56:28 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 68
+2018-07-03 08:56:28 UpdateTip:            new best=65fe647241e71e6725586e9c48374d97fca771c65281a4264cdf0f3285312717  height=69  log2_work=24.129283  tx=70  date=2018-07-03 08:56:28 progress=1.000000  cache=0
+2018-07-03 08:56:29  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:30 HdacMiner: Block Found - 000005fa9c07cfb436fba9d8f1177fa28bf6ccf038134eb82b47b69643d3d183, prev: 65fe647241e71e6725586e9c48374d97fca771c65281a4264cdf0f3285312717, height: 70, txs: 1
+2018-07-03 08:56:30 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 69
+2018-07-03 08:56:30 UpdateTip:            new best=932bdac83f8c054e3b39f922916eabcf29d9c0dc0f0b4b470d7a569839274481  height=70  log2_work=24.149747  tx=71  date=2018-07-03 08:56:30 progress=1.000000  cache=0
+2018-07-03 08:56:31  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:34 HdacMiner: Block Found - 000039ab71c4d6c1dbb981c7052e6de293a17c481d207b6bb95bd2c349026da2, prev: 932bdac83f8c054e3b39f922916eabcf29d9c0dc0f0b4b470d7a569839274481, height: 71, txs: 1
+2018-07-03 08:56:34 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 70
+2018-07-03 08:56:34 UpdateTip:            new best=9c310aeb2ff7767a466522b24f49a8d7c89716ebcaa342fe248c982e6efb76a2  height=71  log2_work=24.169925  tx=72  date=2018-07-03 08:56:34 progress=1.000000  cache=0
+2018-07-03 08:56:35  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:38 HdacMiner: Block Found - 000016616d2e5d972266bf84e7a0fe74b99b8887a682fcef7d168fa459ec4571, prev: 9c310aeb2ff7767a466522b24f49a8d7c89716ebcaa342fe248c982e6efb76a2, height: 72, txs: 1
+2018-07-03 08:56:38 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 71
+2018-07-03 08:56:38 UpdateTip:            new best=91da5598ae6cf988e9f98409377dc9953280d97d5a61cfaf5be803fea6e108a4  height=72  log2_work=24.189825  tx=73  date=2018-07-03 08:56:38 progress=1.000000  cache=0
+2018-07-03 08:56:39  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:40 HdacMiner: Block Found - 000029a0aa4feda70a45b80040929a070ae16009de5c80263a242e230fb228b9, prev: 91da5598ae6cf988e9f98409377dc9953280d97d5a61cfaf5be803fea6e108a4, height: 73, txs: 1
+2018-07-03 08:56:40 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 72
+2018-07-03 08:56:40 UpdateTip:            new best=846d5f6a7006de3fd2298d441bee2e277d13d0a5a5bcb5becb0aa912089cc2fc  height=73  log2_work=24.209453  tx=74  date=2018-07-03 08:56:40 progress=1.000000  cache=0
+2018-07-03 08:56:41  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:45 HdacMiner: Block Found - 000021b8cc2e2ff2325389ddf57d46e10e6e8d259c2ff86440dd619ca11a4554, prev: 846d5f6a7006de3fd2298d441bee2e277d13d0a5a5bcb5becb0aa912089cc2fc, height: 74, txs: 1
+2018-07-03 08:56:45 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 73
+2018-07-03 08:56:45 UpdateTip:            new best=fea87764c0528f7d9db6e56c52ddbb7bfb8db4aa5c215aff34c649f02e5dbeee  height=74  log2_work=24.228819  tx=75  date=2018-07-03 08:56:44 progress=1.000000  cache=0
+2018-07-03 08:56:46  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:47 HdacMiner: Block Found - 0000067e61dd8c4b9c816b9e248a0fa33266bf8c416e4eb0309d7303a5b94b65, prev: fea87764c0528f7d9db6e56c52ddbb7bfb8db4aa5c215aff34c649f02e5dbeee, height: 75, txs: 1
+2018-07-03 08:56:47 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 74
+2018-07-03 08:56:47 UpdateTip:            new best=0f8a596cc877b23a95b41b9006d1241c46031bb8ef43f8c8c81a51fe0a6876c4  height=75  log2_work=24.247928  tx=76  date=2018-07-03 08:56:47 progress=1.000000  cache=0
+2018-07-03 08:56:49  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:49 HdacMiner: Block Found - 000038fa16302a695551defc02fb725d2abda21f9b38d9f83f0dd78cd212c06d, prev: 0f8a596cc877b23a95b41b9006d1241c46031bb8ef43f8c8c81a51fe0a6876c4, height: 76, txs: 1
+2018-07-03 08:56:49 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 75
+2018-07-03 08:56:49 UpdateTip:            new best=fc29bd8a8f30ef5f78b07eefbce86da504a98135f77a2c9df64a325f0777f6af  height=76  log2_work=24.266787  tx=77  date=2018-07-03 08:56:49 progress=1.000000  cache=0
+2018-07-03 08:56:50  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:51 HdacMiner: Block Found - 00002e33cf595fe85840b047f3bf318f4193b7c8cc7a723b9f263232156094ba, prev: fc29bd8a8f30ef5f78b07eefbce86da504a98135f77a2c9df64a325f0777f6af, height: 77, txs: 1
+2018-07-03 08:56:51 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 76
+2018-07-03 08:56:51 UpdateTip:            new best=bed444ce4baf8d12048bb3e7f8e106edbebf4bd0f54037861c99b76d3fb64f3b  height=77  log2_work=24.285402  tx=78  date=2018-07-03 08:56:51 progress=1.000000  cache=0
+2018-07-03 08:56:52  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:56:53 HdacMiner: Block Found - 000026bfe71eaf265c419d56848879c44368fd98f88eeb007f5ce372a2097afe, prev: bed444ce4baf8d12048bb3e7f8e106edbebf4bd0f54037861c99b76d3fb64f3b, height: 78, txs: 1
+2018-07-03 08:56:53 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 77
+2018-07-03 08:56:53 UpdateTip:            new best=f3c9d42692d97285ebda6b2825b405942fffd5c3ec7cbf42ddec4b1aa5e59676  height=78  log2_work=24.303781  tx=79  date=2018-07-03 08:56:53 progress=1.000000  cache=0
+2018-07-03 08:56:54  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:00 HdacMiner: Block Found - 0000154cfb59fc051adae9239fd7f11713885bfa4f1cafc7d235aadb8d907bfa, prev: f3c9d42692d97285ebda6b2825b405942fffd5c3ec7cbf42ddec4b1aa5e59676, height: 79, txs: 1
+2018-07-03 08:57:00 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 78
+2018-07-03 08:57:00 UpdateTip:            new best=5246bbb794800788bec8768ea88649479dea3ebefbf75ef6f70f0a1ce88b1f3f  height=79  log2_work=24.321928  tx=80  date=2018-07-03 08:56:59 progress=1.000000  cache=0
+2018-07-03 08:57:01  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:05 HdacMiner: Block Found - 00002c8e999fda4518ce3f8bbd1aa4aef908c30dbfdb693b4bed4019330efc33, prev: 5246bbb794800788bec8768ea88649479dea3ebefbf75ef6f70f0a1ce88b1f3f, height: 80, txs: 1
+2018-07-03 08:57:05 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 79
+2018-07-03 08:57:05 UpdateTip:            new best=a7f2fe3c3d4c21ff76f189910bc50d7a67414507aab2a0344982dfbdec2650c6  height=80  log2_work=24.33985  tx=81  date=2018-07-03 08:57:05 progress=1.000000  cache=0
+2018-07-03 08:57:06  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:10 HdacMiner: Block Found - 00003902bfc3f853b78ab60cbffd7b4b245650b9a782a10368bd19a73c05181b, prev: a7f2fe3c3d4c21ff76f189910bc50d7a67414507aab2a0344982dfbdec2650c6, height: 81, txs: 1
+2018-07-03 08:57:10 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 80
+2018-07-03 08:57:10 UpdateTip:            new best=d572c5b3b7a32541b1fea730e78769860f975843790c9b387bc22a675a1646d7  height=81  log2_work=24.357552  tx=82  date=2018-07-03 08:57:10 progress=1.000000  cache=0
+2018-07-03 08:57:12  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:20 HdacMiner: Block Found - 00002ef1e6ea7678e6aa5f4ed3e4e3c4e3c228445720d08562ae5cb96aff70a3, prev: d572c5b3b7a32541b1fea730e78769860f975843790c9b387bc22a675a1646d7, height: 82, txs: 1
+2018-07-03 08:57:20 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 81
+2018-07-03 08:57:20 UpdateTip:            new best=5615336858ba78e71f881728f974e410a3fc5fb49495ce6a3ef363f78a1117a7  height=82  log2_work=24.375039  tx=83  date=2018-07-03 08:57:20 progress=1.000000  cache=0
+2018-07-03 08:57:21  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:22 HdacMiner: Block Found - 00002838fbbb4ea6cebfcfc3a3840be9d9c9672c4a42ac2ca6c2fcaeeac4bad2, prev: 5615336858ba78e71f881728f974e410a3fc5fb49495ce6a3ef363f78a1117a7, height: 83, txs: 1
+2018-07-03 08:57:22 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 82
+2018-07-03 08:57:22 UpdateTip:            new best=a0b8b1a41982db89c8cc70108e2a4c8e7b091c17d760b5db71b8f0acb17217f2  height=83  log2_work=24.392317  tx=84  date=2018-07-03 08:57:22 progress=1.000000  cache=0
+2018-07-03 08:57:23  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:23 HdacMiner: Block Found - 000019f0e56d3c2dec3c794dae539d427246b7cfa66d37c3dbd0fddbb08fac41, prev: a0b8b1a41982db89c8cc70108e2a4c8e7b091c17d760b5db71b8f0acb17217f2, height: 84, txs: 1
+2018-07-03 08:57:23 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 83
+2018-07-03 08:57:23 UpdateTip:            new best=65a84f1a47baf81286ef0a494f34b9da1ab3303e9133769609e22da19d8f9fb3  height=84  log2_work=24.409391  tx=85  date=2018-07-03 08:57:23 progress=1.000000  cache=0
+2018-07-03 08:57:24  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:29 HdacMiner: Block Found - 00000fd0e956d7214cc15fa768018f4f05ad9017b40ef1e4641380f5e85de840, prev: 65a84f1a47baf81286ef0a494f34b9da1ab3303e9133769609e22da19d8f9fb3, height: 85, txs: 1
+2018-07-03 08:57:29 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 84
+2018-07-03 08:57:29 UpdateTip:            new best=8cc5326bb801aae31e6822e5647863c0192822b60603a99445cb8f6a74db047e  height=85  log2_work=24.426265  tx=86  date=2018-07-03 08:57:29 progress=1.000000  cache=0
+2018-07-03 08:57:30  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:32 HdacMiner: Block Found - 00001c12075fe3298a4b7d73828c71f68a7850ecb70415fd3f182a4ba0903d94, prev: 8cc5326bb801aae31e6822e5647863c0192822b60603a99445cb8f6a74db047e, height: 86, txs: 1
+2018-07-03 08:57:32 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 85
+2018-07-03 08:57:32 UpdateTip:            new best=faeaf37ce5c1621761d7f480a1d908b9cc3c541e469de23093e43b72b18cc080  height=86  log2_work=24.442943  tx=87  date=2018-07-03 08:57:32 progress=1.000000  cache=0
+2018-07-03 08:57:33  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:36 HdacMiner: Block Found - 0000376cf6a4f178c49d7d26951de6671369149ddee20e6a9bd8e1908351dd00, prev: faeaf37ce5c1621761d7f480a1d908b9cc3c541e469de23093e43b72b18cc080, height: 87, txs: 1
+2018-07-03 08:57:36 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 86
+2018-07-03 08:57:36 UpdateTip:            new best=6d0e0d002d912c1685ff69af78cda9fc45d9fcd969ee69705d433ea155b7f621  height=87  log2_work=24.459432  tx=88  date=2018-07-03 08:57:35 progress=1.000000  cache=0
+2018-07-03 08:57:37  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:39 HdacMiner: Block Found - 0000141d0679d1c52780969e7eea4413d9732d5a9c8e76560ca0902a32532319, prev: 6d0e0d002d912c1685ff69af78cda9fc45d9fcd969ee69705d433ea155b7f621, height: 88, txs: 1
+2018-07-03 08:57:39 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 87
+2018-07-03 08:57:39 UpdateTip:            new best=9cb350d4bb95469883cd8eb63d1fa36cf6be98863f16c571da90d8d6a715f2cc  height=88  log2_work=24.475733  tx=89  date=2018-07-03 08:57:39 progress=1.000000  cache=0
+2018-07-03 08:57:40  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:43 HdacMiner: Block Found - 00001f4402c5a2a5d6ac1a1a129a2583e603113413e7b84dd2286af74c4c210c, prev: 9cb350d4bb95469883cd8eb63d1fa36cf6be98863f16c571da90d8d6a715f2cc, height: 89, txs: 1
+2018-07-03 08:57:43 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 88
+2018-07-03 08:57:43 UpdateTip:            new best=0a579411396533d7a315cd7bac371411d2952df6e4db996c33ad526e9a42a016  height=89  log2_work=24.491853  tx=90  date=2018-07-03 08:57:43 progress=1.000000  cache=0
+2018-07-03 08:57:44  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:48 HdacMiner: Block Found - 0000192a7bbb6de43fd96efaffb27c21715d8f8e44ee0d7702f5471155a87cb8, prev: 0a579411396533d7a315cd7bac371411d2952df6e4db996c33ad526e9a42a016, height: 90, txs: 1
+2018-07-03 08:57:48 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 89
+2018-07-03 08:57:48 UpdateTip:            new best=52386501c3da5a6b1a1d0f01b7e78c62743d969052c27a7e8ecbdd989a6be095  height=90  log2_work=24.507795  tx=91  date=2018-07-03 08:57:48 progress=1.000000  cache=0
+2018-07-03 08:57:49  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:51 HdacMiner: Block Found - 000037040c2dbfbb5e9db2aac2b3501c9cddfa69ae74453d0484d9b38015b761, prev: 52386501c3da5a6b1a1d0f01b7e78c62743d969052c27a7e8ecbdd989a6be095, height: 91, txs: 1
+2018-07-03 08:57:51 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 90
+2018-07-03 08:57:51 UpdateTip:            new best=68f920b1bfd0cc314cd74f12e2987d60f0fab9047a43b614281bd2a5629468f6  height=91  log2_work=24.523562  tx=92  date=2018-07-03 08:57:51 progress=1.000000  cache=0
+2018-07-03 08:57:52  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:57:59 HdacMiner: Block Found - 000025e9d9159ba001ce638ef2a33d1e99d161041e5b3c7857339f9781d4e2f2, prev: 68f920b1bfd0cc314cd74f12e2987d60f0fab9047a43b614281bd2a5629468f6, height: 92, txs: 1
+2018-07-03 08:57:59 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 91
+2018-07-03 08:57:59 UpdateTip:            new best=50d52befa07e3dc3bd3eaea0f512814fc225df6d60c19ba9df48f50a4c55aa51  height=92  log2_work=24.539159  tx=93  date=2018-07-03 08:57:59 progress=1.000000  cache=0
+2018-07-03 08:58:00  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:58:04 HdacMiner: Block Found - 00003dffce9d84fd9b59309d9648309458114d658f9385015a43c4484ca6bbbf, prev: 50d52befa07e3dc3bd3eaea0f512814fc225df6d60c19ba9df48f50a4c55aa51, height: 93, txs: 1
+2018-07-03 08:58:04 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 92
+2018-07-03 08:58:04 UpdateTip:            new best=348e4e62e8f46b7be600c0dcfd8047dd8d1f5e254c54e46dd5485a6db3a9822e  height=93  log2_work=24.554589  tx=94  date=2018-07-03 08:58:04 progress=1.000000  cache=0
+2018-07-03 08:58:05  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
