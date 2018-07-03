@@ -1,0 +1,118 @@
+2018-07-03 08:02:50 [AppInit2] : MAX_BLOCK_SIZE=1000000, MAX_BLOCK_SIGOPS=20000, MAX_TX_SIGOPS=4000 
+2018-07-03 08:02:50 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-07-03 08:02:50 Hdac version build 1.03.5 protocol 20000 (May 10 2018, 09:15:25)
+2018-07-03 08:02:50 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
+2018-07-03 08:02:50 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-07-03 08:02:50 Default data directory /home/brian/.hdac/master
+2018-07-03 08:02:50 Using data directory /home/brian/.hdac/master
+2018-07-03 08:02:50 Using config file /home/brian/.hdac/master/master.conf
+2018-07-03 08:02:50 Using at most 125 connections (1024 file descriptors available)
+2018-07-03 08:02:50 Using 4 threads for script verification
+2018-07-03 08:02:50 Using wallet wallet.dat
+2018-07-03 08:02:50 init message: Verifying wallet...
+2018-07-03 08:02:50 CDBEnv::Open : LogDir=/home/brian/.hdac/master/database ErrorFile=/home/brian/.hdac/master/db.log
+2018-07-03 08:02:50 init message: Initializing hdac...
+2018-07-03 08:02:50 nFileVersion = 100000
+2018-07-03 08:02:50 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2018-07-03 08:02:50 hdac: Default key is not found - creating new... 
+2018-07-03 08:02:50 keypool added key 1, size=1
+2018-07-03 08:02:50 keypool added key 2, size=2
+2018-07-03 08:02:50 hdac: Parameter set is new, THIS IS GENESIS NODE - looking for genesis block...
+2018-07-03 08:02:50 [AppInitAsParams] : minFee = 0, minRelayTxFee=0.00000000 HDAC/kB, minTxFee=0.00000000 HDAC/kB 
+2018-07-03 08:02:50 [AppInitAsParams] : payTxFee = 0.00000000 HDAC/kB, maxTxFee=10 
+2018-07-03 08:02:50 [AppInitAsParams] : MAX_BLOCK_SIZE=8388608, MAX_BLOCK_SIGOPS=167772, MAX_TX_SIGOPS=33554 
+2018-07-03 08:02:50 hdac: Genesis block found
+2018-07-03 08:02:50 hdac: Parameter set is valid - initializing blockchain parameters...
+2018-07-03 08:02:50 [AppInitAsParams] : minFee = 0, minRelayTxFee=0.00000000 HDAC/kB, minTxFee=0.00000000 HDAC/kB 
+2018-07-03 08:02:50 [AppInitAsParams] : payTxFee = 0.00000000 HDAC/kB, maxTxFee=10 
+2018-07-03 08:02:50 [AppInitAsParams] : MAX_BLOCK_SIZE=8388608, MAX_BLOCK_SIGOPS=167772, MAX_TX_SIGOPS=33554 
+2018-07-03 08:02:50 Wallet mode: 00000003
+2018-07-03 08:02:50 Node paused state is set to 00000000
+2018-07-03 08:02:50 Binding RPC on address 0.0.0.0 port 38822 (IPv4+IPv6 bind any: 0)
+2018-07-03 08:02:50 Bound to [::]:38823
+2018-07-03 08:02:50 Bound to 0.0.0.0:38823
+2018-07-03 08:02:50 Setting banned transaction list:    0 transactions
+2018-07-03 08:02:50 init message: Loading block index...
+2018-07-03 08:02:50 Opening LevelDB in /home/brian/.hdac/master/blocks/index
+2018-07-03 08:02:50 Opened LevelDB successfully
+2018-07-03 08:02:50 Opening LevelDB in /home/brian/.hdac/master/chainstate
+2018-07-03 08:02:50 Opened LevelDB successfully
+2018-07-03 08:02:50 nFileVersion = 100000
+2018-07-03 08:02:50 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-07-03 08:02:50 LoadBlockIndexDB: last block file = 0
+2018-07-03 08:02:50 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-07-03 08:02:50 Checking all blk files are present...
+2018-07-03 08:02:50 LoadBlockIndexDB(): transaction index disabled
+2018-07-03 08:02:50 Initializing databases...
+2018-07-03 08:02:50 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-07-03 08:02:50 New stream. TxID: 7a0a64c2a27e8561ccee92f37c6e725129c347ff574a71278ac7dff54d0d1bae, StreamRef: 0-81-7086, Name: root
+2018-07-03 08:02:50 UpdateTip:            new best=00001abfd032bebc3d7efdd54ae84167277b4d9dec70e7c5117b74d6773e8272  height=0  log2_work=18  tx=1  date=2018-07-03 08:02:50 progress=1.000000  cache=0
+2018-07-03 08:02:50 init message: Verifying blocks...
+2018-07-03 08:02:50  block index              42ms
+2018-07-03 08:02:50 Hdac protocol version: 20000
+2018-07-03 08:02:50 init message: Loading wallet...
+2018-07-03 08:02:50 nFileVersion = 100000
+2018-07-03 08:02:50 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-07-03 08:02:50  wallet                    1ms
+2018-07-03 08:02:50 mapBlockIndex.size() = 1
+2018-07-03 08:02:50 nBestHeight = 0
+2018-07-03 08:02:50 setKeyPool.size() = 1
+2018-07-03 08:02:50 oldWallet.size() = 0
+2018-07-03 08:02:50 mapWallet.size() = 0
+2018-07-03 08:02:50 mapAddressBook.size() = 1
+2018-07-03 08:02:50 init message: Loading addresses...
+2018-07-03 08:02:50 ERROR: Read : Failed to open file /home/brian/.hdac/master/peers.dat
+2018-07-03 08:02:50 Invalid or missing peers.dat; recreating
+2018-07-03 08:02:50 Loaded 0 addresses from peers.dat  0ms
+2018-07-03 08:02:50 addcon thread start
+2018-07-03 08:02:50 opencon thread start
+2018-07-03 08:02:50 dnsseed thread start
+2018-07-03 08:02:50 Loading addresses from DNS seeds (could take a while)
+2018-07-03 08:02:50 0 addresses found from DNS seeds
+2018-07-03 08:02:50 dnsseed thread exit
+2018-07-03 08:02:50 init message: Done loading
+2018-07-03 08:02:50 HdacMiner started
+2018-07-03 08:02:50 msghand thread start
+2018-07-03 08:02:50 net thread start
+2018-07-03 08:02:50 dumpaddr thread start
+2018-07-03 08:02:50  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:02:50 Node started
+2018-07-03 08:02:52 HdacMiner: Block Found - 000035ea905688c32f0a7b12292ce6f4b27adc740f1214b6ddbc9dd700a82c22, prev: 00001abfd032bebc3d7efdd54ae84167277b4d9dec70e7c5117b74d6773e8272, height: 1, txs: 1
+2018-07-03 08:02:52 hdac: New Block was received from ME. WZ: -1 NF: 0 BH: 0
+2018-07-03 08:02:52 Pre-allocating up to position 0x100000 in rev00000.dat
+2018-07-03 08:02:52 UpdateTip:            new best=2b0682b629163fa8e962a93c8067f3613e967a941ff6a353afab8b6035aab13a  height=1  log2_work=19  tx=2  date=2018-07-03 08:02:52 progress=1.000000  cache=0
+2018-07-03 08:02:52  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:02:55 hashmeter     77 khash/s
+2018-07-03 08:03:05 HdacMiner: Block Found - 0000283f9ed2199c967885c85f391101a580c388a8cf801ab9f6df6b4b398aa5, prev: 2b0682b629163fa8e962a93c8067f3613e967a941ff6a353afab8b6035aab13a, height: 2, txs: 1
+2018-07-03 08:03:05 hdac: New Block was received from ME. WZ: 0 NF: 1 BH: 1
+2018-07-03 08:03:05 UpdateTip:            new best=4ea13cb92fee21d116adc4f18c15a6d11d3e0baf480650cfa6ebc2931d295853  height=2  log2_work=19.584963  tx=3  date=2018-07-03 08:03:04 progress=1.000000  cache=0
+2018-07-03 08:03:06  hdac-miner : nLastBlockTx=0, nLastBlockSize=1000 
+2018-07-03 08:03:06 dumpaddr thread stop
+2018-07-03 08:03:06 msghand thread interrupt
+2018-07-03 08:03:06 opencon thread interrupt
+2018-07-03 08:03:06 addcon thread interrupt
+2018-07-03 08:03:06 net thread interrupt
+2018-07-03 08:03:06 Shutdown: In progress...
+2018-07-03 08:03:06 HdacMiner terminated
+2018-07-03 08:03:06 StopNode()
+2018-07-03 08:03:06 Node stopped
+2018-07-03 08:03:06 Shutdown: done

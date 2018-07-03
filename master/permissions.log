@@ -1,0 +1,16 @@
+2018-07-03 17:02:50.771	Initialized: Admin count: 0, Miner count: 0, ledger rows: 1
+2018-07-03 17:02:50.919	Grant: (00000000-41006ab4-00000001-41006ab4) (0-4294967295, 1530604970), In consensus: 1, Admin count: 0, Miner count: 0
+2018-07-03 17:02:50.919	Grant: (00000000-41006ab4-00000002-41006ab4) (0-4294967295, 1530604970), In consensus: 1, Admin count: 0, Miner count: 0
+2018-07-03 17:02:50.919	Grant: (00000000-41006ab4-00000004-41006ab4) (0-4294967295, 1530604970), In consensus: 1, Admin count: 0, Miner count: 0
+2018-07-03 17:02:50.919	Grant: (00000000-41006ab4-00000020-41006ab4) (0-4294967295, 1530604970), In consensus: 1, Admin count: 0, Miner count: 0
+2018-07-03 17:02:50.919	Grant: (00000000-41006ab4-00000010-41006ab4) (0-4294967295, 1530604970), In consensus: 1, Admin count: 0, Miner count: 0
+2018-07-03 17:02:50.919	Grant: (00000000-41006ab4-00002000-41006ab4) (0-4294967295, 1530604970), In consensus: 1, Admin count: 0, Miner count: 0
+2018-07-03 17:02:50.919	Grant: (00000000-41006ab4-00000100-41006ab4) (0-4294967295, 1530604970), In consensus: 1, Admin count: 0, Miner count: 1
+2018-07-03 17:02:50.919	Grant: (00000000-41006ab4-00001000-41006ab4) (0-4294967295, 1530604970), In consensus: 1, Admin count: 1, Miner count: 1
+2018-07-03 17:02:50.919	Grant: (4d0d1bae-00000000-00000001-41006ab4) (0-4294967295, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2018-07-03 17:02:50.919	Grant: (4d0d1bae-41006ab4-00000008-41006ab4) (0-4294967295, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2018-07-03 17:02:50.919	Grant: (4d0d1bae-41006ab4-00002000-41006ab4) (0-4294967295, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2018-07-03 17:02:50.919	Grant: (4d0d1bae-41006ab4-00001000-41006ab4) (0-4294967295, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2018-07-03 17:02:50.923	Block commit:         0 (Hash: 773e8272, Miner: 41006ab4), Admin count: 1, Miner count: 1, Ledger Rows: 15
+2018-07-03 17:02:52.912	Block commit:         1 (Hash: 35aab13a, Miner: 41006ab4), Admin count: 1, Miner count: 1, Ledger Rows: 17
+2018-07-03 17:03:05.050	Block commit:         2 (Hash: 1d295853, Miner: 41006ab4), Admin count: 1, Miner count: 1, Ledger Rows: 19
