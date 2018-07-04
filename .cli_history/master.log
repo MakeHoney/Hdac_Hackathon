@@ -44,3 +44,112 @@
 2018-07-03 17:55:43.229	getblockcount
 2018-07-03 17:55:45.052	getblockcount
 2018-07-03 17:55:47.736	getblockcount
+2018-07-03 18:09:17.750	getblockcount
+2018-07-03 18:11:36.076	getblockcount
+2018-07-03 18:18:59.146	getblockcount
+2018-07-03 18:19:24.265	help
+2018-07-03 19:09:16.028	getblockcount
+2018-07-03 19:09:17.461	getblockcount
+2018-07-03 19:09:18.251	getblockcount
+2018-07-03 19:09:21.249	getblockcount
+2018-07-03 19:09:27.789	getblockcount
+2018-07-03 19:09:41.585	getblockcount
+2018-07-03 19:09:44.232	getblockcount
+2018-07-03 19:10:18.404	getblockcount
+2018-07-03 19:10:20.141	getblockcount
+2018-07-03 19:10:21.185	getblockcount
+2018-07-03 19:10:33.796	getblockcount
+2018-07-03 19:10:35.180	getblockcount
+2018-07-03 19:10:36.660	getblockcount
+2018-07-03 19:11:59.221	getblockcount
+2018-07-03 19:22:29.378	help
+2018-07-03 19:23:00.378	getaddresses
+2018-07-03 19:23:12.172	getaccount H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW
+2018-07-03 19:23:58.780	getaccount
+2018-07-03 19:24:34.028	getaccount d
+2018-07-03 19:24:36.406	getaddresses;
+2018-07-03 19:24:37.804	getaddresses
+2018-07-03 19:25:17.648	getaccount H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW
+2018-07-03 19:42:55.194	getaccount
+2018-07-03 19:43:03.065	getblockcount
+2018-07-03 19:43:09.195	listwallettransactions
+2018-07-03 19:44:47.259	listpermissions issue
+2018-07-03 19:45:17.910	getaddresses true
+2018-07-03 19:45:30.060	getnewaddress
+2018-07-03 19:45:32.331	getnewaddress
+2018-07-03 19:45:41.676	getaddresses
+2018-07-03 19:46:18.430	grant HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe, H7LwfMJwfCnTngvupHraToG9mjTpApjfHh receive,send
+2018-07-03 19:46:26.401	grant HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe, H7LwfMJwfCnTngvupHraToG9mjTpApjfHh
+2018-07-03 19:47:09.280	grant HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe, H7LwfMJwfCnTngvupHraToG9mjTpApjfHh, receive,send
+2018-07-03 19:48:09.750	grant H7LwfMJwfCnTngvupHraToG9mjTpApjfHh receive,send
+2018-07-03 19:48:31.654	grant HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe receive,send
+2018-07-03 19:49:01.587	listunspent 0 9999 '["H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW"]'
+2018-07-03 19:50:26.727	gettxout fffa52aa097fac7d9b1725b3297eeb2a12ad7a8c41810485b8640dcc4fcb3236 0
+2018-07-03 19:51:04.398	createrawtransaction '[{"txid":"fffa52aa097fac7d9b1725b3297eeb2a12ad7a8c41810485b8640dcc4fcb3236","vout":0},{"txid":"fff2b3ffc4b75d6326e6ea287e8b736fdaade579266348dce7e401f3a16e5501","vout":0}]' '{"HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe":{"asset5":20,"asset6":30},"H7LwfMJwfCnTngvupHraToG9mjTpApjfHh":{"asset5":30,"asset6":20}}'
+2018-07-03 19:52:41.524	listpermissions issue
+2018-07-03 19:53:38.765	issue H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW asset3 100 0.1
+2018-07-03 19:53:50.962	issue H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW asset4 100 0.1
+2018-07-03 19:58:08.172	getaddresses
+2018-07-03 19:59:26.449	grant HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe receive, send
+2018-07-03 19:59:34.344	grant HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe receive,send
+2018-07-03 19:59:47.812	grant H7LwfMJwfCnTngvupHraToG9mjTpApjfHh receive,send
+2018-07-03 19:59:51.100	grant H7LwfMJwfCnTngvupHraToG9mjTpApjfHh receive,send
+2018-07-03 20:00:47.321	createrawsendfrom H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW '{"HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe":{"asset3":20,"asset4":30},"H7LwfMJwfCnTngvupHraToG9mjTpApjfHh":{"asset3":30,"asset4":20}}' '["5554584f732046545721"]' sen
+2018-07-03 20:00:49.400	createrawsendfrom H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW '{"HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe":{"asset3":20,"asset4":30},"H7LwfMJwfCnTngvupHraToG9mjTpApjfHh":{"asset3":30,"asset4":20}}' '["5554584f732046545721"]' send
+2018-07-03 20:01:39.032	getaddressbalances H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW
+2018-07-03 20:02:03.529	getaddressbalances HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe
+2018-07-03 20:02:46.606	getaddressbalances H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW
+2018-07-03 20:02:52.553	getaddressbalances H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW 0
+2018-07-03 20:02:59.899	getaddressbalances H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW 0
+2018-07-03 20:03:15.001	listwallettransactions 1
+2018-07-03 20:03:50.661	listwallettransactions 0
+2018-07-03 20:03:52.635	listwallettransactions 2
+2018-07-03 20:03:54.014	listwallettransactions 3
+2018-07-03 20:03:55.470	listwallettransactions 5
+2018-07-03 20:03:57.217	listwallettransactions 1000
+2018-07-03 20:03:59.765	listwallettransactions 100000
+2018-07-03 20:05:13.534	listpermissions issue
+2018-07-03 20:12:58.107	getbalance
+2018-07-03 20:13:00.222	getbalance
+2018-07-03 20:13:01.174	getbalance
+2018-07-03 20:13:02.236	getbalance
+2018-07-03 20:13:33.221	getwalletinfo
+2018-07-03 20:15:52.987	getrawtransaction 288892aa4349627c04d87746f24a9551c8db559df9127d286d1af763ff948bb5
+2018-07-03 20:16:02.019	getrawtransaction 288892aa4349627c04d87746f24a9551c8db559df9127d286d1af763ff948bb5 verbose=1
+2018-07-03 20:16:08.006	getrawtransaction 288892aa4349627c04d87746f24a9551c8db559df9127d286d1af763ff948bb5,verbose=1
+2018-07-03 20:16:19.178	getrawtransaction 288892aa4349627c04d87746f24a9551c8db559df9127d286d1af763ff948bb5, verbose=1
+2018-07-03 20:16:22.275	getrawtransaction 288892aa4349627c04d87746f24a9551c8db559df9127d286d1af763ff948bb5
+2018-07-03 21:36:24.477	getblockcount
+2018-07-03 21:36:28.259	getblockcount
+2018-07-03 21:36:38.551	help
+2018-07-03 21:36:53.722	getblockcount
+2018-07-03 21:37:13.249	getblockhash
+2018-07-03 21:37:40.737	getblockhash
+2018-07-03 21:37:44.312	getaddresses
+2018-07-04 15:44:44.735	getaddresses
+2018-07-04 15:44:46.495	getaddresses
+2018-07-04 15:45:00.665	getaccount H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW
+2018-07-04 15:58:52.828	listunspent
+2018-07-04 15:59:19.795	listunspent 0,999999
+2018-07-04 15:59:21.920	listunspent
+2018-07-04 16:00:15.576	help
+2018-07-04 16:00:29.369	listunspent 0 999999
+2018-07-04 16:00:34.593	listunspent 0 999999
+2018-07-04 16:00:37.461	getaddresses
+2018-07-04 16:00:46.964	listunspent 0 999999 HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe
+2018-07-04 16:00:50.311	listunspent 0 999999 HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe
+2018-07-04 16:00:54.041	help
+2018-07-04 16:01:20.427	listunspent 0 999999 HBQzvDMwowQ9aBKiNVdnCAKhgdAiSzhsCe
+2018-07-04 16:01:27.208	listunspent 0 999999
+2018-07-04 16:15:08.600	listunspent 0 999999
+2018-07-04 16:15:25.246	listunspent 0 999999 H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW
+2018-07-04 16:15:46.737	listunspent 0 999999
+2018-07-04 16:17:14.528	listunspent 0 999999
+2018-07-04 16:18:33.954	listunspent 0 999999
+2018-07-04 16:18:54.300	listunspent 0 999999 H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW
+2018-07-04 16:19:16.286	listunspent 0 999999 [H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW]
+2018-07-04 16:19:29.912	listunspent 0 999999 [{H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW}]
+2018-07-04 16:19:47.674	listunspent 0 999999 H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW
+2018-07-04 16:20:00.648	listunspent 0 999999 {[H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW]}
+2018-07-04 16:20:11.251	listunspent 0 999999 [H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW]
+2018-07-04 16:20:24.790	listunspent 0 999999 [H6jRusR26AmACj53Gh5mNdGtxUsYmtfTkW]
